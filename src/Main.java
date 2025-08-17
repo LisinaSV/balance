@@ -11,6 +11,5 @@ public class Main {
         }
         int balance = payment + bonus + remains;
         System.out.println("Сумма на счете:" + balance);
-
     }
 }
