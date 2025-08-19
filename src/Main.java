@@ -7,7 +7,7 @@ public class Main {
         if (payment < 1000) {
             bonus = 0;
         } else {
-            bonus = payment/100;
+            bonus = payment / 100;
         }
         int balance = payment + bonus + remains;
         System.out.println("Сумма на счете:" + balance);
